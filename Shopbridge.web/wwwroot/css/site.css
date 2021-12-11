@@ -1,0 +1,215 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+/*a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}*/
+
+/* Provide sufficient contrast against white background */
+/*a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}*/
+
+/* Sticky footer styles
+-------------------------------------------------- */
+/*html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}*/
+
+/* Sticky footer styles
+-------------------------------------------------- */
+/*html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {*/
+  /* Margin bottom by footer height */
+  /*margin-bottom: 60px;
+}
+*/
+
+body {
+    /*padding-top: 10px;*/
+    padding-bottom: 20px;
+}
+
+.main-div {
+    margin: 60px auto;
+}
+
+#logo {
+    height: 60px;
+    width: auto;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.add-edit-heading {
+    margin-top: 5rem;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+    font-size: 18px;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+input {
+    display: block;
+    padding: 5px 10px;
+    transition: border-color .25s ease, box-shadow .25s ease;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.action-buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.action-buttons input {
+    margin: auto 1rem;
+    width: 80px;
+}
+
+.field label {
+    text-align: left;
+}
+
+.field input, .field label{
+    width: 50%
+}
+
+.button {
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 0;
+    padding: 10px 10px;
+    font-weight: 400;
+    background: #2a3843;
+    color: #fff;
+    -webkit-appearance: none;
+}
+
+    .button:hover, .button:focus {
+        color: #fff !important;
+    }
+
+.form-body {    
+    padding: 20px 40px;
+    margin: 30px auto;
+}
+
+body {
+    background: #fff;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 60px;
+    background-color: white;
+    /* Vertically center the text there */
+}
+
+
+/*label {
+    font-size: 22px;
+}*/
+
+/*.form-body input, textarea {
+    font-size: 20px;
+}*/
+
+    textarea:focus, input:focus {
+        outline: none;
+    }
+
+.table-heading {
+    background-color: #2a3843;
+    color: white;
+}
+
+.add-new {
+    background-color: #1ab188;
+}
+
+#alertDiv{
+    position: fixed;
+    bottom: 70px;
+    text-wrap:normal;
+    right: 15px;
+}
